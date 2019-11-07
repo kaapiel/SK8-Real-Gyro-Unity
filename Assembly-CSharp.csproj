@@ -108,6 +108,8 @@
      <Compile Include="Assets\Mod Assets\ModResources\Scripts\Kart\KartSpeedPad.cs" />
      <Compile Include="Assets\Mod Assets\ModResources\Scripts\Kart\SimpleTrigger.cs" />
      <Compile Include="Assets\Mod Assets\ModResources\Scripts\Platformer\EmitParticlesOnLand.cs" />
+     <Compile Include="Assets\Skating\ChangeSchene.cs" />
+     <Compile Include="Assets\Skating\GyroControl.cs" />
      <None Include="Assets\Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Karting\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Karting\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

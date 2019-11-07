@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Karting/Scenes/SampleScene.unity
     guid: f8c7069e6d9b2124b861144ca83d31e8
+  - enabled: 1
+    path: Assets/Karting/Scenes/gyro.unity
+    guid: 0da5e075a847247c6836247c2733e3ac
   m_configObjects: {}

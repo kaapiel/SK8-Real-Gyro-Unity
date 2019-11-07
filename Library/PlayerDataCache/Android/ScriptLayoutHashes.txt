@@ -3,6 +3,7 @@ PlayerPath?
 /Users/gfraga/Desktop/real skate.apk
 SceneListBegin?
 Assets/Karting/Scenes/SampleScene.unity
+Assets/Karting/Scenes/gyro.unity
 SceneListEnd?
 a1f19ad47d3094e235f21b74dfc423a8 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.PostProcessLayer
 ce669872a2be11bc686ea22961d8a3bb Assembly-CSharp.dll:.Joystick
@@ -34,6 +35,7 @@ af93f9c42e90877a9ba31e37adfd900c Unity.Postprocessing.Runtime.dll:UnityEngine.Re
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.InteractiveTutorials.Core.Scripts.dll:Unity.InteractiveTutorials.SelectionRoot
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.JoyButtonScript
 c80bc562de10fdbf8b2e9bcb89d80421 Cinemachine.dll:Cinemachine.CinemachineCollisionImpulseSource
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GyroControl
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -254,3 +256,4 @@ ffdbd5802c2482a072a88f428ad3ca9d Cinemachine.dll:Cinemachine.CinemachineBrain
 9dac16f3efc511835ac976dfae55f580 Assembly-CSharp.dll:.VariableJoystick
 94a6212bc97ed891bf46c9c21a0658cc Cinemachine.dll:Cinemachine.CinemachineBasicMultiChannelPerlin
 2792936179724025482dc04d68a47ca7 Cinemachine.dll:Cinemachine.CinemachineClearShot
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ChangeSchene

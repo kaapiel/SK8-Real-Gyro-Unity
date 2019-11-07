@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Karting/Scenes/SampleScene.unity
+- path: Assets/Karting/Scenes/gyro.unity
   isLoaded: 1
   isActive: 1
