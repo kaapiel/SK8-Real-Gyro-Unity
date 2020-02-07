@@ -1,6 +1,7 @@
 version: 2.1
 
 orbs:
+  sonarcloud: sonarsource/sonarcloud@1.0.1
   win: circleci/windows@1.0.0
 
 jobs:
@@ -28,3 +29,10 @@ jobs:
           command: .\bin\Release\netcoreapp2.1\win10-x64\publish\circleci-demo-windows.exe
       - store_artifacts:
           path: .\bin\Release\netcoreapp2.1\win10-x64\publish\circleci-demo-windows.exe
+      - sonarcloud/scan
+
+workflows:
+  main:
+    jobs:
+      - build:
+          context: SonarCloud
