@@ -400,7 +400,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/UTech/MG-Karting
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/gfraga/Documents/Git/unity-sk8-real-gyro
+  m_LastProjectPath: /Users/anttinieminen/GitHubEnterprise/kart-template
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
