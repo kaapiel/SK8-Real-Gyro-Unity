@@ -5,9 +5,9 @@ orbs:
 
 jobs:
   build:
-    docker:
-    - image: node:latest
-    cmd: ["/bin/bash"]
+    machine:
+    mage: ubuntu-1604:201903-01
+
     steps:
       - checkout
       - sonarcloud/scan
