@@ -5,7 +5,7 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_SK8-Real-Gyro&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kaapiel_SK8-Real-Gyro)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_SK8-Real-Gyro&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=kaapiel_SK8-Real-Gyro)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_SK8-Real-Gyro&metric=security_rating)](https://sonarcloud.io/dashboard?id=kaapiel_SK8-Real-Gyro)
-![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/SK8-Real-Gyro-Unity-Java/master)
+![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/SK8-Real-Gyro-Unity/master)
 [![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
 # Sk8 Real Gyro Unity
