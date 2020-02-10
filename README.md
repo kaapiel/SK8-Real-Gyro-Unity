@@ -1,4 +1,4 @@
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/SK8-Real-Gyro-Unity/banner.png)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_SK8-Real-Gyro&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_SK8-Real-Gyro)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_SK8-Real-Gyro&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_SK8-Real-Gyro)
@@ -21,15 +21,6 @@ An awesome game that transforms your device in a skateboard
 
 <h2 id="quick-start">Quick Start :chart_with_upwards_trend:</h2>
 Install the Game in your device (Android or iOS) and try it!
-
-<br/>
-
-<h2 id="examples">Examples :eyes:</h2>
-
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
 
 <br/>
 
