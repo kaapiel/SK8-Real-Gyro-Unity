@@ -13,11 +13,11 @@ jobs:
         name: Git Checkout
           - checkout
           - slack/notify
-            channel: CTMS09JKC
+            channel: 'CTMS09JKC'
             color: '#42e2f4'
             mentions: ''
-            message: SK8-Real-Gyro-Unity has checkout from git
-            webhook: https://hooks.slack.com/services/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
+            message: 'SK8-Real-Gyro-Unity has checkout from git'
+            webhook: 'https://hooks.slack.com/services/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'
       run:
         name: Sonar scan
           - sonarcloud/scan
