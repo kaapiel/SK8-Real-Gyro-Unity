@@ -11,8 +11,7 @@ jobs:
     steps:
       - checkout
       - slack/notify:
-        color: "#42e2f4"
-        message: "SK8-Real-Gyro-Unity has checked out the code from git"
+        webhook: "SK8-Real-Gyro-Unity has checked out the code from git"
       - sonarcloud/scan
 
 workflows:
