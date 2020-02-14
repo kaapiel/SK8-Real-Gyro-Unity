@@ -10,6 +10,12 @@ jobs:
       image: ubuntu-1604:201903-01
     steps:
       - checkout
+      - slack/notify:
+        channel: 'CTMS09JKC'
+        color: '#42e2f4'
+        mentions: ''
+        message: 'SK8-Real-Gyro-Unity has checkout from git'
+        webhook: 'https://hooks.slack.com/services/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'
       - sonarcloud/scan
 
 workflows:
