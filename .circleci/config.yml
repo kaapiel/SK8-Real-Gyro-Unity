@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  slack: circleci/slack@1.0.0
+  slack: circleci/slack@3.4.2
   sonarcloud: sonarsource/sonarcloud@1.0.1
   
 jobs:
@@ -15,7 +15,6 @@ jobs:
           command: |
             echo 'export MY_ENV_VAR="https://hooks.slack.com/services/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"' >> $BASH_ENV
       - slack/notify:
-        color: "#42e2f4"
         message: "SK8-Real-Gyro-Unity has checked out the code from git"
       - sonarcloud/scan
 
