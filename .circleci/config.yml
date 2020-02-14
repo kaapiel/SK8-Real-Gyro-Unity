@@ -11,11 +11,11 @@ jobs:
     steps:
       - checkout
       - slack/notify:
-        channel: 'CHANNELID'
-        color: '#42e2f4'
-        mentions: 'USERID1,USERID2,'
-        message: 'This is a custom message notification'
-        webhook: webhook'
+        channel: "CHANNELID"
+        color: "#42e2f4"
+        mentions: ""
+        message: "Message"
+        webhook: "webhook'
       - sonarcloud/scan
 
 workflows:
