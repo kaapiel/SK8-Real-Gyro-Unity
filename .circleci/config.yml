@@ -17,12 +17,6 @@ jobs:
         message: "SK8-Real-Gyro-Unity has checked out the code from git"
         webhook: "https://hooks.slack.com/services/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"
       - sonarcloud/scan
-      - slack/notify:
-        channel: "CTMS09JKC"
-        color: "#42e2f4"
-        mentions: ""
-        message: "SK8-Real-Gyro-Unity has passed on Sonar Quality Gates"
-        webhook: "https://hooks.slack.com/services/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"
 
 workflows:
   main:
