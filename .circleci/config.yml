@@ -11,14 +11,15 @@ jobs:
     steps:
       - checkout
       - slack/notify:
-        channel: CHANNELID
+        channel: 'CHANNELID'
         color: '#42e2f4'
         mentions: 'USERID1,USERID2,'
-        message: This is a custom message notification
-        webhook: webhook
+        message: 'This is a custom message notification'
+        webhook: webhook'
       - sonarcloud/scan
 
 workflows:
   main:
     jobs:
-      - build
+      - build:
+          context: SonarCloud
