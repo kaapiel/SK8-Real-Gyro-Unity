@@ -9,29 +9,24 @@ jobs:
     machine:
       image: ubuntu-1604:201903-01
     steps:
-      - run:
-        name: Git Checkout
-        command:
-          - checkout
-          - slack/notify:
-            channel: 'CTMS09JKC'
-            color: '#42e2f4'
-            mentions: ''
-            message: 'SK8-Real-Gyro-Unity has checkout from git'
-            webhook: 'https://hooks.slack.com/services/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'
-      - run:
-        name: Sonar scan
-        command:
-          - sonarcloud/scan
-          - slack/notify:
-            channel: 'CTMS09JKC'
-            color: '#42e2f4'
-            mentions: ''
-            message: 'SK8-Real-Gyro-Unity has passed on Sonar Scan'
-            webhook: 'https://hooks.slack.com/services/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'
+      - checkout
+      - slack/notify:
+        channel: 'CTMS09JKC'
+        color: '#42e2f4'
+        mentions: ''
+        message: 'SK8-Real-Gyro-Unity has checkout from git'
+        webhook: 'https://hooks.slack.com/services/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'
+      - sonarcloud/scan
+      - slack/notify:
+        channel: 'CTMS09JKC'
+        color: '#42e2f4'
+        mentions: ''
+        message: 'SK8-Real-Gyro-Unity has passed on Sonar Scan'
+        webhook: 'https://hooks.slack.com/services/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'
 
 workflows:
   main:
     jobs:
+      - build
       - build:
           context: SonarCloud
