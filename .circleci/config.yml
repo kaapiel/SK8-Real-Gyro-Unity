@@ -21,6 +21,7 @@ jobs:
             webhook: 'https://hooks.slack.com/services/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'
       run:
         name: Sonar scan
+        command:
           - sonarcloud/scan
           - slack/notify:
             channel: 'CTMS09JKC'
