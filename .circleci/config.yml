@@ -9,7 +9,7 @@ jobs:
     machine:
       image: ubuntu-1604:201903-01
     steps:
-      run:
+      - run:
         name: Git Checkout
         command:
           - checkout
@@ -19,7 +19,7 @@ jobs:
             mentions: ''
             message: 'SK8-Real-Gyro-Unity has checkout from git'
             webhook: 'https://hooks.slack.com/services/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'
-      run:
+      - run:
         name: Sonar scan
         command:
           - sonarcloud/scan
