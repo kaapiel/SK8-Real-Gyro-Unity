@@ -11,7 +11,7 @@ jobs:
     steps:
       - checkout
       - slack/notify:
-        slack_webhook: 'https://hooks.slack.com/services/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'
+        SLACK_WEBHOOK: 'https://hooks.slack.com/services/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'
       - sonarcloud/scan
 
 workflows:
