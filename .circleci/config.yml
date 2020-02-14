@@ -13,7 +13,7 @@ jobs:
       - run: 
           name: "Setup custom environment variables"
           command: |
-            echo 'export SLACK_WEBHOOK="ehDmlqJGKCcsGgMevj6DZuoB"' >> $BASH_ENV
+            echo 'export SLACK_WEBHOOK="https://hooks.slack.com/services/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"' >> $BASH_ENV
       - slack/notify:
         message: "SK8-Real-Gyro-Unity has checked out the code from git"
 #      - sonarcloud/scan
